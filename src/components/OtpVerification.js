@@ -105,33 +105,28 @@ const OTPVerification = () => {
 
     return (
         <Box
-            sx={{
+              sx={{
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
                 justifyContent: "center",
-                height: "86.8vh",
                 padding: 3,
-                maxWidth: 400,
-                margin: "auto",
-                boxShadow: 3,
-                borderRadius: 3,
+                height: "85.5vh",
                 position: "relative",
-            }}
-        >
-            {/* Enhanced Top Design */}
-            <Box
+              }}
+            >
+              <Box
                 sx={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "200px",
-                    background: "#E3F2FD",
-                    clipPath: "ellipse(75% 50% at 50% 0)",
-                    zIndex: -1,
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "200px",
+                  background: "#E3F2FD",
+                  clipPath: "ellipse(75% 50% at 50% 0)",
+                  zIndex: -1,
                 }}
-            />
+              />
 
             {/* Top Logo Section */}
             {/* <Box
@@ -151,11 +146,11 @@ const OTPVerification = () => {
                 <Typography
                     variant="h5"
                     fontWeight="bold"
-                    sx={{ marginBottom: 2, mt: -9 }}
+                    sx={{ marginBottom: 2, mt: 3 }}
                 >
                     OTP Verification
                 </Typography>
-                <Typography sx={{ margin: "10px 0", color: "grey.700", mt: 10 }}>
+                <Typography sx={{ margin: "10px 0", color: "grey.700", mt: 2}}>
                     OTP has been sent to <strong> {email}</strong>
                 </Typography>
 

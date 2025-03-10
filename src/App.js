@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./components/Home";
 import OTPVerification from "./components/OtpVerification";
 import MPINCreation from "./components/MPINCreation";
+import { Dashboard } from "./components/Dashboard";
+import MPINLogin from "./components/MPINLogin";
 
 function App() {
   return (
@@ -22,6 +24,11 @@ function App() {
           path="/dashboard"
           exact
           element={<Dashboard />}
+        />
+        <Route
+          path="/Mpin-login"
+          exact
+          element={<MPINLogin />}
         />
       </Routes>
     </Router>
